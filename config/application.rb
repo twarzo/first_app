@@ -4,7 +4,11 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+<<<<<<< HEAD
 Bundler.require(*Rails.groups)
+=======
+Bundler.require(:default, Rails.env)
+>>>>>>> 6fe6618a6e3ab3ca30b2b1b552eec6d58ed90c2a
 
 module FirstApp
   class Application < Rails::Application

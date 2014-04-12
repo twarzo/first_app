@@ -39,7 +39,11 @@ FirstApp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 6fe6618a6e3ab3ca30b2b1b552eec6d58ed90c2a
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
